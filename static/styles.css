@@ -1,0 +1,100 @@
+//* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Botones del menú */
+button {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.ejercicio1 {
+    background-color: #8e44ad;
+}
+
+button.ejercicio2 {
+    background-color: #27ae60;
+}
+
+button.ejercicio1:hover {
+    background-color: #732d91;
+}
+
+button.ejercicio2:hover {
+    background-color: #1e8449;
+}
+
+/* Formularios */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes de resultados */
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
